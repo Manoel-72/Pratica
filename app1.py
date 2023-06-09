@@ -26,6 +26,6 @@ print(min(1, 8))
 print(round(8.9))
 
 
-print(math.floor(6.7))
+print(math.floor(9.9))
 print(math.ceil(4.8))
 print(math.sqrt(4))
