@@ -28,4 +28,4 @@ print(round(8.9))
 
 print(math.floor(6.7))
 print(math.ceil(4.8))
-print(math.sqrt(2))
+print(math.sqrt(4))
