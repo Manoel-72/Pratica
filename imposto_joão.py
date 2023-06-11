@@ -5,6 +5,7 @@ renda_anual = float(input("Digite o valor da renda anual de João: "))
 if renda_anual <= 30000:
     print("João está inseto de pagar imposto.")
 
+# Mais se o valor for acima de 30mil João devera paga Imposto.
 else:
     imposto = renda_anual * 0.15
 
