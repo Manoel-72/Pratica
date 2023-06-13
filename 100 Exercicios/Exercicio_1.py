@@ -2,7 +2,7 @@
 pi = 3.14159
 
 # Raio da area, em float um procua um entra para mensagem Digite o raio de circulo
-raio = float(input("Digite o raio do circulo"))
+raio = float(input("Digite o raio do circulo: "))
 
 # Area e igual a pi vez o raio  com exponeciação de 2
 area = pi * raio**2
