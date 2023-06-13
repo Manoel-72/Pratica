@@ -1,4 +1,4 @@
-"""Exercicio intermediario de inicainte Primeiro"""
+"""Exercicio intermediario de inicainte Primeiro Media de numero """
 
 # Solicita ao usuario a quantidade de números
 _quant_ = int(input("Digite a quantidade de números: "))

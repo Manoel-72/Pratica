@@ -1,4 +1,4 @@
-"""Exercicio de horario"""
+"""Exercicio de horario Conversor de horario"""
 
 
 def hora(h, m):
@@ -24,3 +24,23 @@ def hora(h, m):
                     break
                 m = int(input("Digite os minutos"))
                 hora(h, m)
+
+
+listpm = [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+listam = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0]
+
+
+def conversohorario():
+    h = int(input("Digite a hora: "))
+    m = int(input("Digite o minuto: "))
+    if h in listam:
+        idx = listam.index(h)
+        print(f"São {h} : {m} A.M")
+    elif h in listpm:
+        idx = listpm.index(h)
+        print(f"São {listpm[idx]} : {m} pm")
+    else:
+        print("Horario não reconhecido")
+
+
+conversohorario()
